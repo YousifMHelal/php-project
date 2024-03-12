@@ -1,0 +1,109 @@
+.info {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.info p {
+  color: var(--text-soft);
+  font-size: 18px;
+  text-transform: capitalize;
+  direction: rtl;
+}
+
+.info span {
+  color: var(--new-col);
+  font-weight: bold;
+}
+
+.info h1 {
+  font-size: 3rem;
+  color: var(--header-col);
+  text-transform: capitalize;
+}
+
+.questions {
+  margin: 20px 50px;
+  direction: rtl;
+}
+
+.questions .question {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+
+.questions .question .text {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.questions .question .yes,
+.questions .question .no {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.question label {
+  cursor: pointer;
+}
+
+.yes input[type="radio"] {
+  accent-color: green;
+}
+
+.no input[type="radio"] {
+  accent-color: red;
+}
+
+.btn {
+  width: max-content;
+  padding: 10px 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  color: var(--text-col);
+  background: #66e180;
+  cursor: pointer;
+}
+
+.status {
+  color: var(--main-col);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.result {
+  color: var(--alt-col);
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.no-user {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--header-col);
+  text-transform: capitalize;
+}
+
+.no-user a {
+  color: var(--text-soft);
+}
+
+@media screen and (max-width: 640px) {
+  .info h1 {
+    font-size: 2.5rem;
+  }
+
+  .questions {
+    margin: 20px 0;
+  }
+
+  .questions .question .text {
+    font-size: 1rem;
+  }
+}

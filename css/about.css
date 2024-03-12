@@ -1,0 +1,60 @@
+.container {
+  background: linear-gradient(45deg, var(--alt-col), var(--main-col));
+  min-height: 100vh;
+}
+
+table {
+  background: rgba(255, 255, 255, 0.2);
+  text-align: left;
+  border-collapse: collapse;
+  width: 600px;
+  margin: auto;
+  margin-top: 30px;
+  border: none;
+  box-shadow: 0 18px 100px 0px rgba(0, 0, 0, 0.345);
+}
+
+table td,
+table th {
+  padding: 3px 2px;
+}
+table tbody td {
+  font-size: 13px;
+}
+
+table thead {
+  background: rgba(24, 19, 19, 0.3);
+  border: none;
+}
+table thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+table tr td {
+  font-size: 15px;
+}
+
+.title {
+  text-transform: capitalize;
+  color: var(--header-col);
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  table {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  table {
+    width: 340px;
+  }
+  table tbody td {
+    font-size: 12px;
+  }
+}
