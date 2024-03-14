@@ -34,7 +34,7 @@ if (isset($_POST["submit"])) {
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/style.css?>=<?php echo time(); ?>" />
+  <link rel="stylesheet" href="css/style.css" />
   <title>Login</title>
 </head>
 
@@ -70,5 +70,4 @@ if (isset($_POST["submit"])) {
     </div>
   </div>
 </body>
-
 </html>
